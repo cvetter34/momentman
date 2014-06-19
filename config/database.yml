@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: momentman_dev
+  pool: 5
+  username: rails
+  password: '!QAZxdr5'
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: momentman_test
+  pool: 5
+  username: rails
+  password: '!QAZxdr5'
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: momentman
+  pool: 5
+  username: rails
+  password: '!QAZxdr5'
